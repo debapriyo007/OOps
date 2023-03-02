@@ -64,7 +64,9 @@ public class arr_obj {
        sub[0]= new subject("pcc-192","Opearating System", 97);
        sub[1]= new subject("cs-85","Algorithim ",99);
        sub[2]= new subject("bsc-404","Analog",70);
-       for(subject s:sub){
+
+       
+       for(subject s:sub){//for loop sort sort version....
          System.out.println(s);
        }
         
