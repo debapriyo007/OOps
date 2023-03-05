@@ -1,4 +1,4 @@
-package Rectangle;
+//package Rectangle;
 //import java.util.*;
 
 // creating class
