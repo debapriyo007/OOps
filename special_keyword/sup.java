@@ -1,3 +1,6 @@
+import Animal;
+
+package special_keyword;
 public class sup {
     public static void main(String[] args) {
         Horse h1= new Horse();

@@ -1,3 +1,4 @@
+package special_keyword;
 public class stat {
     public static void main(String[] args) {
        Student s1 =new Student();
