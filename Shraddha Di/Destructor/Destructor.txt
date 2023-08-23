@@ -1,0 +1,5 @@
+If Constructor is exist the Destructor is also be.
+In C++ Destructor are there thre are some special function they the delete object form memory they are called "Destructor".
+
+* But in Java thre is no Destructor , java garbage Collector delete automatically 
+The object , variable , unuses array that are remove automatically. 
