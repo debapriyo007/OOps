@@ -20,6 +20,13 @@ public class OOPS {
         kakatua.eat();*/
 
 
+        GoldFish g1 = new GoldFish();
+        g1.eat();
+        g1.fins = 5;
+        System.out.println("Gold Fish fin is " + g1.fins);
+        g1.swim();
+        g1.bredth();
+
 
     }
 }
@@ -194,6 +201,51 @@ class Fish extends Animal{
      --------------     --------------     ----------------
      {SHARK}            {GOLD FISH}           {HORNBILL}
 */
+
+class Animal {
+    void eat(){
+        System.out.println("Eatting");
+    }
+
+    void bredth(){
+        System.out.println("Bredthing..");
+    }
+}
+
+class Fish extends Animal{
+    void swim(){
+        System.out.println("Fish are swiming..");
+    }
+
+    int fins;
+    void  printFins(int fins){
+        this.fins = fins;
+    }
+
+}
+
+class Bird extends  Animal{
+    void fly(){
+        System.out.println("Flying..");
+    }
+
+    int wings;
+    void prntWings(int wings){
+        this.wings = wings;
+    }
+}
+
+class GoldFish extends Fish{
+    void color(){
+        System.out.println("My color is Gold.");
+    }
+}
+
+class Hornbill extends Bird {
+    void color(){
+        System.out.println("I am black and yellow color.");
+    }
+}
 
 
                         
