@@ -1,0 +1,30 @@
+Interface--> Interface is a blueprint of a class.
+
+(1.) It implement multiple inheritance.
+
+              ______________         ______________ 
+             |  BASE CLASS  |       |  BASE CLASS  |
+               --------------         --------------
+                       \                /       
+                        \              /        
+                         \            /
+                          \          /              
+                     ________________________
+                    |    DERIVE CLASS        |
+                    --------------------------
+There are two Base Class and one Derive class  all Base class property are used by Derive class this is
+called "Multiple inheritance." 
+
+(2.) Using 'Interface' we are achived total Abstraction (100%)..
+
+
+Some Key Points :-
+----------------------
+                         Interface ----> implements
+                         Class      ----> extends 
+
+*   By default the methords in Interface are 'public' , 'abstract' , 'without implementation' .
+**  Variable in Interface are by default 'public' , 'static' , 'final' ..                    
+                            
+
+                 
