@@ -2,11 +2,11 @@
  There are two types of polymorphism --
 
   1.COMPILE TIME POLYMORPHISM.( Called Static also )
-  * Methord Overriding.
+  * Methord  Overloading.
     --Multiple methords with same name but different parameter.
 
   2.RUN TIME POLYMORPHISM.   (Called Dynamic also)
-  * Methord Overloading.
+  * Methord Overriding
     -- Parent and Child class both are contain same function with a different definition..
  
  
