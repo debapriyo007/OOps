@@ -7,7 +7,7 @@
  
  #### If you want you create  a "Package".
  ## Like 👇
- ![](http://www.google.com/logos/doodles/2015/googles-new-logo-5078286822539264.3-hp2x.gif)
+
  ---
  #### **"GOOGLE"** have multiple package.like MAPS, PAYMENT,CHROME.
  ###### We assume that "MAPS" all codes are in one package .This code are written 4-5 file This file is called **PACKAGE**.
@@ -18,11 +18,11 @@
  ##### **Access Modifiers** comes here as a Seviour.
 
 
-| Access Modifiers | With Class| Withing Package | Withing Package |Withing Package |
+| Access Modifiers | With in Class| Withing Package | Same Package by SubClasses | Outside Package by SubClasses|
 | :---         |       :---:      |          ---: |            ---: |          ---: |
 | **Private**  | ✔  |❌    |   ❌   | ❌   |❌
-| **Default**  |  ✔    | ✔      | ❌      | ❌    |
-| **Protected**  |  ✔    | ✔      |✔      | ❌    |
+| **Default**  |  ✔    | ✔      |  ✔      | ❌    |
+| **Protected**  |  ✔    | ✔      |✔      |   ✔  |
 | **Public**  |  ✔    | ✔      | ✔      | ✔    |
 
 
