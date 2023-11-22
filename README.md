@@ -2,7 +2,7 @@
 
 ## Access Modifiers
 
- ### <u> Define access any Object.</u>
+
  ###### Suppose, you have create an BANK INFO and you want your PASSWORD does't access any-one out of your class.You want in your class functions are like setPassword(), getPassword(), and much more rather than no one can access your password.
  
  #### If you want you create  a "Package".
