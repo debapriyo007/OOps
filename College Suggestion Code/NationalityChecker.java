@@ -1,7 +1,0 @@
-/**
- * NationalityChecker
- */
-public class NationalityChecker {
-
-    
-}
