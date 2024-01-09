@@ -1,5 +1,0 @@
-When we talk about exceptional..
-First talk about Errors--
-1) Compile Time Error.
-2) Run Time Error. ---> called as "Exceptions!"  to Handle that.
-3) Logical Error.
