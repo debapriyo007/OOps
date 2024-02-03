@@ -1,33 +1,42 @@
-# **🎯 OOPS..**
+
+
+
+
+# **🔥 OOPS Concepts 🔥**
+
+**This repository contains code examples and explanations for various Object-Oriented Programming (OOPS) concepts.**
 
 ## Access Modifiers
 
+Access modifiers in OOPS determine the visibility and accessibility of class members (variables and methods). They help in controlling the access to sensitive data and functionality within a class or across different classes and packages.
 
- ###### Suppose, you have create an BANK INFO and you want your PASSWORD does't access any-one out of your class.You want in your class functions are like setPassword(), getPassword(), and much more rather than no one can access your password.
- 
- #### If you want you create  a "Package".
- ## Like 👇
+The following table summarizes the different access modifiers and their visibility:
 
- ---
- #### **"GOOGLE"** have multiple package.like MAPS, PAYMENT,CHROME.
- ###### We assume that "MAPS" all codes are in one package .This code are written 4-5 file This file is called **PACKAGE**.
-- ##### we dont need our "Payment Package " data is known by "Maps".
+| Access Modifier | Within Class | Within Package | Same Package by Subclasses | Outside Package by Subclasses |
+|-----------------|--------------|----------------|----------------------------|-------------------------------|
+| Private         | ✔            | ❌              | ❌                          | ❌                             |
+| Default         | ✔            | ✔              | ✔                          | ❌                             |
+| Protected       | ✔            | ✔              | ✔                          | ✔                             |
+| Public          | ✔            | ✔              | ✔                          | ✔                             |
 
- ### 📌 The main theam is that---
- ###### Our <u>Sensetive</u> data does't go out from our package.
- ##### **Access Modifiers** comes here as a Seviour.
+### Private Access Modifier
 
+The `private` access modifier restricts the visibility of a member to only within the same class. It is used to encapsulate sensitive data or implementation details that should not be accessed or modified from outside the class.
 
-| Access Modifiers | With in Class| Withing Package | Same Package by SubClasses | Outside Package by SubClasses|
-| :---         |       :---:      |          ---: |            ---: |          ---: |
-| **Private**  | ✔  |❌    |   ❌   | ❌   |❌
-| **Default**  |  ✔    | ✔      |  ✔      | ❌    |
-| **Protected**  |  ✔    | ✔      |✔      |   ✔  |
-| **Public**  |  ✔    | ✔      | ✔      | ✔    |
+### Default Access Modifier
 
+The default access modifier (also known as package-private or package-level access) allows access to members within the same package. It is used when you want to share members between classes within the same package but restrict access from classes outside the package.
 
+### Protected Access Modifier
 
+The `protected` access modifier allows access to members within the same class, same package, and subclasses (even if they are in a different package). It is used when you want to provide access to subclasses for inheritance purposes while still restricting access from classes outside the package.
 
+### Public Access Modifier
 
+The `public` access modifier allows unrestricted access to members from anywhere. It is used when you want to make a member accessible to all classes and packages.
 
+---
 
+Feel free to explore the code examples in this repository to understand how access modifiers can be used in different scenarios.
+
+Happy coding!
