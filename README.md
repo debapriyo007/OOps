@@ -12,12 +12,8 @@ Access modifiers in OOPS determine the visibility and accessibility of class mem
 
 The following table summarizes the different access modifiers and their visibility:
 
-| Access Modifier | Within Class | Within Package | Same Package by Subclasses | Outside Package by Subclasses |
-|-----------------|--------------|----------------|----------------------------|-------------------------------|
-| Private         | ✔            | ❌              | ❌                          | ❌                             |
-| Default         | ✔            | ✔              | ✔                          | ❌                             |
-| Protected       | ✔            | ✔              | ✔                          | ✔                             |
-| Public          | ✔            | ✔              | ✔                          | ✔                             |
+
+![Image](https://codestall.files.wordpress.com/2017/09/java-access-modifiers-table.png?w=1400)                        |
 
 ### Private Access Modifier
 
@@ -39,4 +35,4 @@ The `public` access modifier allows unrestricted access to members from anywhere
 
 Feel free to explore the code examples in this repository to understand how access modifiers can be used in different scenarios.
 
-Happy coding!
+### **Happy coding!** 💛 🔥
