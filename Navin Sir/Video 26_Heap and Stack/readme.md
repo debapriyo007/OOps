@@ -1,6 +1,6 @@
 # Stack and Heap In Java 🤓
 
-What Happen when you create a Varriable or Store a Varriable ?
+## What Happen when you create a Varriable or Store a Varriable ?
 - Inside `JVM ` memory , we catagorize into two part -- 
 1. Stack 
 2. Heap
