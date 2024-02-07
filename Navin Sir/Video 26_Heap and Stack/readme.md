@@ -21,6 +21,6 @@ What Happen when you create a Varriable or Store a Varriable ?
 - `STACK HAS ALWAYS BE A KEY VALUE PAIR! 🙄 `
 
 ### Image For Better Understanding.
-![]()
+![](https://raw.githubusercontent.com/debapriyo007/OOps/main/XYZ%20Images/STACK%20AND%20HEAP.png)
 
 
