@@ -5,10 +5,12 @@ public class Opps {
         //but hrere we are passing a string "Debu" which is 4 byte.
         //now capacity of StringBuffer is 16+4=20 byte.
         System.out.println(sb.capacity()); //20 byte.
-        sb.append(" is a good");
+        sb.append("is good boy");
+
         sb.insert(5, "Love Java ");
         sb.ensureCapacity(30); 
         System.out.println(sb);
+        
         
 
         //we want to convet a string into StringBuffer
