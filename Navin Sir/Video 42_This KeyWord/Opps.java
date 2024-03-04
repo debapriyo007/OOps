@@ -19,9 +19,6 @@ class Humans{
     public void setName(String name) {
         this.name = name;
     }
-
-
-
 }
 
 public class Opps {
