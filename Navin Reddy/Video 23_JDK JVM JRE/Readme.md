@@ -1,7 +1,7 @@
 # Notes 🔥
 
 Compile the java code we need a tool that tool is `JDK`
-## ❗️ JDK ❗️
+##  JDK 
 
 - JDK is stand for `Java Development Kit`
 - Why do we need JDK ?
@@ -12,7 +12,7 @@ Compile the java code we need a tool that tool is `JDK`
   
 - The Machie is `JVM (Java Vartual Machine)`
 
-## ❗️ JVM ❗️
+##  JVM 
 - Like you have to successfully compile the java code into byte Code , 
   now you have to run that code or excute the code , it's needs some space 
   that is called `JVM`.
@@ -22,7 +22,7 @@ Compile the java code we need a tool that tool is `JDK`
   which machine you have JVM you run the java code.
 
 
-## ❗️ JRE ❗️
+##  JRE 
 - JRE is stand for `Java Runtime Enviroment`
 
 - Suppose you have create a java file and write down java code and you java code need some
